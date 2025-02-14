@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.projeto {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.logo {
+    width: 220px;
+    height: 160px;
+    border: white;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+.exemplo-imagem {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 10px;
+}
+.botao-link {
+    display: block;
+    margin: 15px auto 0;
+    padding: 12px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+}
+.botao-link:hover {
+    background-color: #f0f0f0;
+}

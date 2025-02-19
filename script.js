@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const projetos = [
             { nome: "Projeto Casa do Lago", descricao: "Projeto de treinamento da Growarq", imagem: "assets/Casa do lago.png", link: "https://autode.sk/3QkICWu" },
-            { nome: "Predio Residencial de 10 pavimentos", descricao: "Arquitetura básica e projeto elétrico de um prédio com apartamentos típicos, garagem e cobertura", imagem: "assets/Prédio com 10 pavimentos.png", link: "https://autode.sk/4k177Fu" }
+            { nome: "Predio Residencial de 10 pavimentos", descricao: "Arquitetura básica e projeto elétrico de um prédio com apartamentos típicos, garagem e cobertura", imagem: "assets/Prédio com 10 pavimentos.png", link: "https://autode.sk/4k177Fu" },
+            { nome: "Gerador Sustentável para Praça - Presidente Kenneddy - ES", descricao: "Projeto Conceitual de uma estrutura de gerador fotovoltaico utilizando os telhados de estruturas públicas e projeto de telhados solares de estacionamento ao redor da praça", imagem: "assets/Carport Kennedy.jpg", link: "https://autode.sk/4i4Uckb"},
         ];
 
         projetos.forEach(projeto => {
